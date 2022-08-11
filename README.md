@@ -13,7 +13,8 @@ kyle@duat:~ $ crontab -e
 ```
 
 ```
-* * * * * /home/kyle/timelapse.sh
+* * * * * /home/kyle/frame.sh
+0 0 * * * /home/kyle/video.sh
 ```
 
 ## Storage
