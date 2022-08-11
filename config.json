@@ -3,25 +3,11 @@
   "quality": 20,
   "cameras": [
     {
-      "name": "Nursery",
-      "ip": "10.0.0.173",
+      "name": "Camera",
+      "ip": "0.0.0.0",
       "username": "admin",
-      "password": "jxi2s-4kzpP-2hzyB",
+      "password": "topsecret",
       "stream_path": "/"
-    },
-    {
-      "name": "OldNursery",
-      "ip": "10.0.0.134",
-      "username": "kyle",
-      "password": "0n0kd1n8",
-      "stream_path": "/live"
-    },
-    {
-      "name": "FrontDoor",
-      "ip": "10.0.0.136",
-      "username": "kyle",
-      "password": "0n0kd1n8",
-      "stream_path": "/live"
     }
   ]
 }
