@@ -13,8 +13,8 @@ kyle@duat:~ $ crontab -e
 ```
 
 ```
-* * * * * /home/kyle/frame.sh
-0 0 * * * /home/kyle/video.sh
+* * * * * python /home/kyle/timelapse/frame.py
+0 0 * * * /home/kyle/timelapse/video.sh
 ```
 
 ## Storage
@@ -24,5 +24,5 @@ kyle@duat:~ $ crontab -e
 `/etc/fstab`
 
 ```
-nas.lan:/Photos/Timelapse /home/kyle/timelapse nfs vers=3,rw,bg,soft,intr,nosuid 0 0
+nas.lan:/Photos/Timelapse /home/kyle/timelapse/storage nfs vers=3,rw,bg,soft,intr,nosuid 0 0
 ```
