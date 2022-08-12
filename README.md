@@ -1,5 +1,7 @@
 # Timelapse
 
+Captures a frame from one or more RTSP streams.
+
 ## Dependencies
 
 ```

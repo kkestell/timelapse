@@ -1,6 +1,8 @@
 {
   "storage_path": "/home/kyle/timelapse/storage/",
+  "filename": "%Y-%m-%d-%H-%M-%S",
   "quality": 20,
+  "timeout": 15,
   "cameras": [
     {
       "name": "Camera",
